@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Poetry about faith, healing, conviction, surrender, and becoming.">
+<title>Ink & Surrender | Poetry</title>
+<style>
+:root{--ink:#f3eceb;--muted:#c0aeb1;--paper:#100d10;--cream:#1b1117;--wine:#8f3048;--gold:#c49a72;--line:#38232c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.65}
+a{color:inherit}.top{padding:18px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);font-family:Arial,sans-serif}
+.brand{font-size:13px;letter-spacing:.22em;text-transform:uppercase;font-weight:700;color:var(--wine)}nav a{font-size:12px;text-decoration:none;margin-left:24px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.hero{padding:100px 8% 90px;text-align:center;background:radial-gradient(ellipse at 50% 0%,#351522 0%,#1b1017 48%,#100d10 100%);border-bottom:1px solid var(--line)}
+.kicker{font:11px Arial,sans-serif;letter-spacing:.28em;text-transform:uppercase;color:var(--wine)}
+h1{font-size:clamp(42px,7vw,76px);font-weight:400;line-height:1.05;margin:22px auto 18px;max-width:850px}
+.hero p{max-width:590px;margin:0 auto;color:var(--muted);font-size:18px}
+.button{display:inline-block;margin-top:30px;padding:12px 22px;background:var(--wine);color:#fff;text-decoration:none;font:11px Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase}
+main{max-width:1050px;margin:auto;padding:76px 7%}
+.section-head{text-align:center;margin-bottom:42px}.section-head h2{font-size:34px;font-weight:400;margin:8px 0}.section-head p{color:var(--muted);margin:0}
+.poems{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.poem{padding:30px;background:#191216;border:1px solid var(--line);min-height:220px;display:flex;flex-direction:column}
+.tag{font:10px Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--wine)}
+.poem h3{font-size:25px;font-weight:400;line-height:1.2;margin:15px 0 10px}
+.poem p{color:var(--muted);margin:0 0 22px}.read{margin-top:auto;color:var(--wine);font:11px Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}
+.about{background:#1b1117;padding:65px 9%;text-align:center}.about h2{font-size:32px;font-weight:400;margin:8px 0 16px}.about p{max-width:690px;margin:0 auto;color:#c0aeb1;font-size:17px}
+footer{text-align:center;padding:30px 7%;font:11px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--line)}
+dialog{border:1px solid var(--line);background:var(--paper);color:var(--ink);width:min(680px,92vw);padding:38px;max-height:85vh;overflow:auto}
+dialog::backdrop{background:#211d1bbd}.close{float:right;border:0;background:none;font-size:24px;cursor:pointer;color:var(--wine)}
+.poem-body{white-space:pre-line;font-size:18px;line-height:1.9}.edit-note{font:12px Arial,sans-serif;color:var(--muted);margin-top:35px;border-top:1px solid var(--line);padding-top:14px}
+@media(max-width:650px){.top{display:block;text-align:center}.top nav{margin-top:12px}.top nav a{margin:0 8px}.hero{padding:75px 7%}.poems{grid-template-columns:1fr}main{padding:58px 6%}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div><div class="brand">Ink &amp; Surrender</div><div style="font:10px Arial,sans-serif;letter-spacing:.16em;color:var(--muted);margin-top:4px">A Poet's Journal</div></div>
+  <nav><a href="#poems">Poems</a><a href="#about">About</a></nav>
+</header>
+<section class="hero">
+  <div class="kicker">A Poet's Journal · Faith • feeling • truth</div>
+  <h1>Words for the parts of us<br>still becoming.</h1>
+  <p>A collection of honest words about faith, healing, conviction, surrender, and the beautiful work of letting God change us.</p>
+  <a class="button" href="#poems">Explore the poems</a>
+</section>
+<main id="poems">
+  <div class="section-head">
+    <div class="kicker">The poetry journal</div>
+    <h2>Words that mean something.</h2>
+    <p>Read slowly. Let the words meet you where you are.</p>
+  </div>
+  <div class="poems">
+    <article class="poem">
+      <div class="tag">Faith • Conviction</div>
+      <h3>Have We Lost the Fear of God?</h3>
+      <p>A call to return to reverence, repentance, holiness, and a faith that shows up in how we live.</p>
+      <a class="read" href="#" onclick="openPoem('fear');return false">Read poem ↗</a>
+    </article>
+    <article class="poem">
+      <div class="tag">Faith • Obedience</div>
+      <h3>Since When Did We Compromise with God?</h3>
+      <p>On selective obedience, comfortable Christianity, and surrender that costs us something.</p>
+      <a class="read" href="#" onclick="openPoem('compromise');return false">Read poem ↗</a>
+    </article>
+    <article class="poem">
+      <div class="tag">Your next page</div>
+      <h3>Another poem is waiting.</h3>
+      <p>This space is yours to grow. Add your next title, your next truth, your next testimony.</p>
+      <a class="read" href="#about">About this journal ↗</a>
+    </article>
+  </div>
+</main>
+<section class="about" id="about">
+  <div class="kicker">A note from the writer</div>
+  <h2>Not perfect words. Honest ones.</h2>
+  <p>This is a space for poems that speak plainly about what it means to be human and to keep turning toward God. Some words may comfort. Some may challenge. All are written to make room for reflection, truth, and growth.</p>
+</section>
+<footer>Ink &amp; Surrender · A Poet's Journal</footer>
+
+<dialog id="poemDialog">
+  <button class="close" aria-label="Close" onclick="document.getElementById('poemDialog').close()">×</button>
+  <div class="kicker" id="poemTag">Poem</div>
+  <h2 id="poemTitle" style="font-weight:400;font-size:32px;line-height:1.15"></h2>
+  <div class="poem-body" id="poemBody"></div>
+  <div class="edit-note">This poem page is ready for your complete poem. Replace the placeholder text in the poems section of the site file before publishing.</div>
+</dialog>
+<script>
+const poems = {
+ fear: {tag:"Faith • Conviction", title:"Have We Lost the Fear of God?", body:"Your complete poem will go here. Paste the final version of your poem into this space before publishing."},
+ compromise: {tag:"Faith • Obedience", title:"Since When Did We Compromise with God?", body:"Your complete poem will go here. Paste the final version of your poem into this space before publishing."}
+};
+function openPoem(key){const p=poems[key];document.getElementById('poemTag').textContent=p.tag;document.getElementById('poemTitle').textContent=p.title;document.getElementById('poemBody').textContent=p.body;document.getElementById('poemDialog').showModal();}
+</script>
+</body>
+</html>
